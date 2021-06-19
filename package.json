@@ -1,0 +1,35 @@
+{
+  "name": "nepalighar-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS backend for NepaliGhar",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.3",
+    "strapi-admin": "3.6.3",
+    "strapi-utils": "3.6.3",
+    "strapi-plugin-content-type-builder": "3.6.3",
+    "strapi-plugin-content-manager": "3.6.3",
+    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-plugin-email": "3.6.3",
+    "strapi-plugin-upload": "3.6.3",
+    "strapi-plugin-i18n": "3.6.3",
+    "strapi-connector-bookshelf": "3.6.3",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0"
+  },
+  "strapi": {
+    "uuid": "0cabc16b-78d5-427b-8bfe-fb3472261b1c"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
