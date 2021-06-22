@@ -21,8 +21,11 @@
     "strapi-plugin-upload": "3.6.3",
     "strapi-plugin-i18n": "3.6.3",
     "strapi-connector-bookshelf": "3.6.3",
+    "strapi-provider-upload-cloudinary": "3.6.3",
     "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "sqlite3": "5.0.0",
+    "pg": "^8.3.3",
+    "pg-connection-string": "^2.5.0"
   },
   "strapi": {
     "uuid": "0cabc16b-78d5-427b-8bfe-fb3472261b1c"
