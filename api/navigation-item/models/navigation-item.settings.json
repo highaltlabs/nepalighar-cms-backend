@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_items",
+  "info": {
+    "name": "Navigation Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "sort_order": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "navigation_menu_item": {
+      "model": "navigation-menu-item",
+      "via": "navigation_items"
+    }
+  }
+}
