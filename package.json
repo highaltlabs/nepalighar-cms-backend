@@ -11,21 +11,22 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "0.21.18",
+    "pg": "^8.3.3",
+    "pg-connection-string": "^2.5.0",
+    "slugify": "1.5.3",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
-    "strapi-utils": "3.6.5",
-    "strapi-plugin-content-type-builder": "3.6.5",
-    "strapi-plugin-content-manager": "3.6.5",
-    "strapi-plugin-users-permissions": "3.6.5",
-    "strapi-plugin-email": "3.6.5",
-    "strapi-plugin-upload": "3.6.5",
-    "strapi-plugin-i18n": "3.6.5",
     "strapi-connector-bookshelf": "3.6.5",
+    "strapi-plugin-content-manager": "3.6.5",
+    "strapi-plugin-content-type-builder": "3.6.5",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-i18n": "3.6.5",
+    "strapi-plugin-upload": "3.6.5",
+    "strapi-plugin-users-permissions": "3.6.5",
     "strapi-provider-upload-cloudinary": "3.6.5",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0",
-    "pg": "^8.3.3",
-    "pg-connection-string": "^2.5.0"
+    "strapi-utils": "3.6.5"
   },
   "strapi": {
     "uuid": "0cabc16b-78d5-427b-8bfe-fb3472261b1c"
