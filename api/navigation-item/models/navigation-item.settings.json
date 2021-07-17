@@ -26,8 +26,8 @@
       "default": 1
     },
     "navigation_menu_item": {
-      "model": "navigation-menu-item",
-      "via": "navigation_items"
+      "via": "navigation_items",
+      "model": "navigation-menu-item"
     }
   }
 }

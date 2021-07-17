@@ -24,6 +24,11 @@
     "navigation_items": {
       "via": "navigation_menu_item",
       "collection": "navigation-item"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "#"
     }
   }
 }
